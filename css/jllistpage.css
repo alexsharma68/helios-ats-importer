@@ -1,0 +1,240 @@
+div.joblist {
+	font-family: 'Open Sans', sans-serif;
+	}
+	
+	/* Clearfix */
+	div.joblist .clear {
+		clear: both;
+		margin: 0;
+		padding: 0;
+		width: 0;
+		height: 0;
+		font-size: 0;
+		line-height: 0;
+		overflow: hidden;
+		visibility: hidden;
+		*zoom: 1;
+		}
+	
+	/* Sorter/Limiter */
+	div.jllimitavail {
+		padding: 12px 0;
+		}
+		div.jllimitavail.top {
+			border-bottom: 7px solid #601268;
+			}
+		div.jllimitavail.bottom {
+			border-top: 7px solid #601268;
+			}
+		
+		/* Label */
+		span.jllimitlabel {
+			display: block;
+			color: #61126d;
+			font-size: 14px;
+			font-style: italic;
+			line-height: 30px;
+			}
+		
+		/* Limiter */
+		div.jllimitavail div.jllimiter {
+			float: left;
+			width: 250px;
+			}
+			span.jllimitlabel {
+				margin-right: 10px;
+				float: left;
+				}
+			div.jllimitavail select.select {
+				margin-right: 10px;
+				padding: 5px 8px;
+				float: left;
+				color: #020202;
+				font-size: 14px;
+				border: 1px solid #e7e7e7;
+				
+				-webkit-transition: border-color 0.3s ease-in-out;
+				-moz-transition: 	border-color 0.3s ease-in-out;
+				-ms-transition: 	border-color 0.3s ease-in-out;
+				-o-transition: 		border-color 0.3s ease-in-out;
+				transition: 		border-color 0.3s ease-in-out;
+				}
+				div.jllimitavail select.select:hover,
+				div.jllimitavail select.select:focus {
+					border-color: #61116a;
+					}
+		
+		/* Counter */
+		div.jlavailable {
+			float: right;
+			}
+			div.jlavailable span.jllimitlabel {
+				float: right;
+				text-align: right;
+				}
+	
+	/* Pager */
+	div.jblistpager {
+		text-align: center;
+		}
+		div.jblistpager ul {
+			margin: 0;
+			padding: 15px 0;
+			}
+			div.jblistpager li {
+				color: #878787;
+				display: inline;
+				margin:0 5px;
+				}
+				div.jblistpager span {}
+				div.jblistpager a {
+					color: #878787;
+					text-decoration: none;
+					
+					-webkit-transition: color 0.3s ease-in-out;
+					-moz-transition: 	color 0.3s ease-in-out;
+					-ms-transition: 	color 0.3s ease-in-out;
+					-o-transition: 		color 0.3s ease-in-out;
+					transition: 		color 0.3s ease-in-out;
+					}
+					div.jblistpager a:hover {
+						color: #fd8703;
+						text-decoration: none;
+						}
+					div.jblistpager a.active {
+						color: #fd8703;
+						text-decoration: underline !important;
+						}
+	
+	/* Job List Items */
+	div.jblistoutput {}
+		ul.jbunorderedlist {
+			margin: 0 !important;
+			padding: 0;
+			list-style-type: none;
+			}
+			ul.jbunorderedlist li {
+				position: relative;
+				margin: 0;
+				padding: 20px 0;
+				border-bottom: 1px solid #ddd;
+				}
+				ul.jbunorderedlist li.first {}
+				ul.jbunorderedlist li.last 	{ /* border-width: 0; */ }
+				
+				ul.jbunorderedlist li.odd 	{}
+				ul.jbunorderedlist li.even 	{}
+				
+				/* List Item Info Top */
+				div.jblistinfotop {
+					position: relative;
+					}
+					div.jblistinfotopinside {}
+						
+						/* Title */
+						div.jblistinfotop h3.block-title {
+							margin: 0;
+							padding: 0 0 10px;
+							color: #61116a;
+							font-size: 21px;
+							font-weight: 400;
+							}
+							div.jblistinfotop h3.block-title a {
+								color: #61116a;
+								
+								-webkit-transition: color 0.3s ease-in-out;
+								-moz-transition: 	color 0.3s ease-in-out;
+								-ms-transition: 	color 0.3s ease-in-out;
+								-o-transition: 		color 0.3s ease-in-out;
+								transition: 		color 0.3s ease-in-out;
+								}
+								div.jblistinfotop h3.block-title:hover a {
+									color: #9d11ad;
+									}
+						
+						/* Posted Date */
+						div.jbpostdate {
+							position: absolute;
+							top: 5px;
+							right: 0;
+							float: right;
+							text-align: right;
+							}
+							div.jbpostdate span.label {
+								display: block;
+								color: #b8b8b8;
+								font-size: 11px;
+								}
+							div.jbpostdate span.jblabelval {
+								display: block;
+								color: #f58a00;
+								font-size: 16px;
+								font-weight: 400;
+								}
+				
+				/* Type and Location */
+				div.jbtypelocation {
+					color: #585858;
+					font-size: 14px;
+					}
+					div.jbtypelocation span.label 		{ font-style: italic; }
+					div.jbtypelocation span.jblabelval 	{ font-weight: 700; }
+						
+				/* List Item Description */
+				div.jbdesc {}
+					div.jbdesc p {
+						/*
+						margin: 0;
+						*/
+						padding: 16px 0;
+						/*
+						color: #545454;
+						font-size: 14px;
+						line-height: 25px;
+						*/
+						}
+				
+				/* View Now Button */
+				div.jbviewbttn .bttn {
+					margin: 0;
+					padding: 9.5px 14.5px;
+					display: block;
+					float: left;
+					color: #fff;
+					font-size: 14px;
+					font-weight: 700;
+					text-decoration: none;
+					background-color: #f80;
+					
+					-webkit-border-radius: 	6px;
+					-moz-border-radius: 	6px;
+					border-radius: 			6px;
+					-webkit-transition: background-color 0.3s ease-in-out;
+					-moz-transition: 	background-color 0.3s ease-in-out;
+					-ms-transition: 	background-color 0.3s ease-in-out;
+					-o-transition: 		background-color 0.3s ease-in-out;
+					transition: 		background-color 0.3s ease-in-out;
+					}
+					div.jbviewbttn .bttn:hover {
+						background-color: #d27000;
+						}
+
+	@media (max-width: 600px) {
+		div.jblistinfotop h3.block-title {
+			padding-bottom: 0;
+			}
+		
+		div.jbpostdate {
+			position: relative;
+			top: 0;
+			padding-bottom: 2px;
+			float: none;
+			text-align: left;
+			}
+			div.jbpostdate span.label,
+			div.jbpostdate span.jblabelval {
+				display: inline;
+				}
+				div.jbpostdate span.label 		{ font-size: 13px; }
+				div.jbpostdate span.jblabelval 	{ font-size: 14px; }
+	}

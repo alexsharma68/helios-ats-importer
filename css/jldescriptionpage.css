@@ -1,0 +1,386 @@
+div.joblist {
+	font-family: 'Open Sans', sans-serif;
+	}
+
+	/* Clearfix */
+	div.joblist .clear {
+		clear: both;
+		margin: 0;
+		padding: 0;
+		width: 0;
+		height: 0;
+		font-size: 0;
+		line-height: 0;
+		overflow: hidden;
+		visibility: hidden;
+		*zoom: 1;
+		}
+
+	/* Posted Info */
+	div.joblist.descpage div.jbpostdate {}
+		div.joblist.descpage div.jbpostdate div {
+			overflow: hidden;
+			}
+			div.joblist.descpage div.jbpostdate span.label {
+				padding-right: 5px;
+				display: block;
+				float: left;
+				color: #565656;
+				font-size: 15px;
+				font-style: italic;
+				}
+			div.joblist.descpage div.jbpostdate span.jblabelval {
+				display: block;
+				float: left;
+				color: #545454;
+				font-size: 15px;
+				font-weight: 600;
+				}
+
+		/* Description Info */
+		div.jllistingdesc {
+			margin: 30px 0;
+			padding: 20px 0;
+			border-top: 7px solid #601268;
+			border-bottom: 7px solid #601268;
+			}
+
+	/* Form Info */
+	div.jlforminfo {}
+		p.jlcontactinfo {
+			color: #631175 !important;
+			font-weight: 700;
+			line-height: 16px !important;
+			}
+			p.jlcontactinfo a {
+				color: #631175;
+				text-decoration: none;
+				
+				-webkit-transition: color 0.3s ease-in-out;
+				-moz-transition: 	color 0.3s ease-in-out;
+				-ms-transition: 	color 0.3s ease-in-out;
+				-o-transition: 		color 0.3s ease-in-out;
+				transition: 		color 0.3s ease-in-out;
+				}
+				p.jlcontactinfo a:hover {
+					color: #e052ff;
+					}
+
+	/* Apply Now Form */
+	div.jlapplyform {
+		margin-top: 20px;
+		font-family: 'Open Sans', sans-serif;
+		border: 8px solid #fff;
+		
+		-webkit-border-radius: 	2px;
+		-moz-border-radius: 	2px;
+		border-radius: 			2px;
+		-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 	0 0 8px rgba(0, 0, 0, 0.25);
+		box-shadow: 		0 0 8px rgba(0, 0, 0, 0.25);
+		}
+		div.jlapplyform form {
+			margin: 0;
+			padding: 0;
+			}
+			div.jlforminside {
+				padding: 20px;
+				background-color: #61116a;
+				}
+
+				/* Notice */
+				div.jlsubmitnotice {
+					margin: 0 0 15px;
+					}
+					div.jlsubmitnotice span {
+						padding: 15px 20px;
+						display: block;
+						color: #fff;
+						font-size: 15px;
+						text-align: center;
+						
+						background: rgb(137, 191, 0);
+						background: -moz-linear-gradient(top, rgb(137, 191, 0) 0%, rgb(145, 203, 0) 100%);
+						background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, rgb(137, 191, 0)), color-stop(100%, rgb(145, 203, 0)));
+						background: -webkit-linear-gradient(top, rgb(137, 191, 0) 0%, rgb(145, 203, 0) 100%);
+						background: -o-linear-gradient(top, rgb(137, 191, 0) 0%, rgb(145, 203, 0) 100%);
+						background: -ms-linear-gradient(top, rgb(137, 191, 0) 0%, rgb(145, 203, 0) 100%);
+						background: linear-gradient(top, rgb(137, 191, 0) 0%, rgb(145, 203, 0) 100%);
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#89BF00', endColorstr='#91CB00', GradientType=1 );
+						-webkit-border-radius: 	3px;
+						-moz-border-radius: 	3px;
+						border-radius: 			3px;
+						-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.20);
+						-moz-box-shadow: 	0 0 5px rgba(0, 0, 0, 0.20);
+						box-shadow: 		0 0 5px rgba(0, 0, 0, 0.20);
+						}
+						div.jlsubmitnotice span.error {
+							padding: 15px 20px;
+							display: block;
+							color: #fff;
+							font-size: 15px;
+							background: #d9343c;
+							
+							background-image: -webkit-linear-gradient(top, #d9343c, #b82c2c);
+							background-image: -moz-linear-gradient(top, #d9343c, #b82c2c);
+							background-image: -ms-linear-gradient(top, #d9343c, #b82c2c);
+							background-image: -o-linear-gradient(top, #d9343c, #b82c2c);
+							background-image: linear-gradient(to bottom, #d9343c, #b82c2c);
+							-webkit-border-radius: 	3px;
+							-moz-border-radius: 	3px;
+							border-radius: 			3px;
+							-webkit-box-shadow: 0 1px 3px #d1c9d1;
+							-moz-box-shadow: 	0 1px 3px #d1c9d1;
+							box-shadow: 		0 1px 3px #d1c9d1;
+							}
+
+				div.jlapplyform h3 {
+					margin: 0 0 10px;
+					padding: 0 0 15px;
+					display: block;
+					color: #fff !important;
+					font-family: 'Open Sans', sans-serif;
+					font-size: 16px;
+					font-weight: 600;
+					border-bottom: 1px solid #fff;
+					}
+				div.jlformfields {}
+
+				/* Form Elements */
+				div.jlformrow {
+					padding: 12px 0;
+					}
+					div.jlformrow.double {}
+					div.jlformitem {}
+					div.jlformrow.double div.jlformitem {
+						float: left;
+						width: 50%;
+						-webkit-box-sizing: border-box;
+						-moz-box-sizing: 	border-box;
+						box-sizing: 		border-box;
+						}
+						div.jlformitem.left {
+							padding-right: 20px;
+							}
+						div.jlformitem.right {
+							padding-left: 20px;
+							}
+						
+						div.jlformitem label {
+							margin: 0;
+							padding: 0 0 5px;
+							display: block;
+							color: #fff;
+							font-family: 'Open Sans', sans-serif;
+							font-size: 14px;
+							}
+							div.jlformitem label.error {
+								display: inline;
+								color: #f00;
+								}
+						div.jlforminput {}
+							
+							div.jlformrow {}
+								div.jlforminput.captchafld {}
+									div.captchacol {
+										float: none;
+										
+										-webkit-box-sizing: border-box;
+										-moz-box-sizing: 	border-box;
+										box-sizing: 		border-box;
+										}
+										div.captchacol.top { margin-bottom: 10px; }
+											div.captchacol.top img {
+												-webkit-border-radius: 	3px;
+												-moz-border-radius: 	3px;
+												border-radius: 			3px;
+												}
+										div.captchacol.bottom {}
+
+							
+							div.jlforminput input.text,
+							div.jlforminput textarea.textarea {
+								padding: 8px;
+								width: 100%;
+								color: #353535;
+								font-family: 'Open Sans', sans-serif;
+								font-size: 14px;
+								border: 1px solid #61116a;
+								
+								-webkit-box-sizing: border-box;
+								-moz-box-sizing: 	border-box;
+								box-sizing: 		border-box;
+								-webkit-border-radius: 	3px;
+								-moz-border-radius: 	3px;
+								border-radius: 			3px;
+								/*
+								-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15) inset;
+								-moz-box-shadow: 	0 0 5px rgba(0, 0, 0, 0.15) inset;
+								box-shadow: 		0 0 5px rgba(0, 0, 0, 0.15) inset;
+								*/
+								-webkit-transition: border-color 0.3s ease-in-out,
+													-webkit-box-shadow 0.3s ease-in-out;
+								-moz-transition: 	border-color 0.3s ease-in-out,
+													-moz-box-shadow 0.3s ease-in-out;
+								-ms-transition: 	border-color 0.3s ease-in-out,
+													-ms-box-shadow 0.3s ease-in-out;
+								-o-transition: 		border-color 0.3s ease-in-out,
+													-o-box-shadow 0.3s ease-in-out;
+								transition: 		border-color 0.3s ease-in-out,
+													box-shadow 0.3s ease-in-out;
+								}
+								div.jlforminput input.text:hover,
+								div.jlforminput input.text:focus,
+								div.jlforminput textarea.textarea:hover,
+								div.jlforminput textarea.textarea:focus {
+									border-color: #ff0e58;
+									
+									-webkit-box-shadow: 0 0 8px rgba(212, 0, 236, 0.80);
+									-moz-box-shadow: 	0 0 8px rgba(212, 0, 236, 0.80);
+									box-shadow: 		0 0 8px rgba(212, 0, 236, 0.80);
+									}
+									div.jlforminput input.text {
+										height: 34px;
+										line-height: 34px;
+										}
+									div.jlforminput textarea.textarea {
+										height: 190px;
+										line-height: 20px;
+										}
+
+									.jlformsubmit {
+										margin: 0 0 10px;
+										padding: 0;
+										display: block;
+										width: 100%;
+										height: 50px;
+										color: #fff !important;
+										font-family: 'Open Sans', sans-serif;
+										font-size: 25px;
+										font-weight: 100;
+										line-height: 50px;
+										text-align: center;
+										cursor: pointer;
+										border: 0 none;
+										background: #ffa900 !important;
+										
+										background: rgb(255, 169, 0) !important;
+										background: -moz-linear-gradient(top, #FFA900 0%, #FE7701 100%) !important;
+										background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, #FFA900), color-stop(100%, #FE7701)) !important;
+										background: -webkit-linear-gradient(top, #FFA900 0%, #FE7701 100%) !important;
+										background: -o-linear-gradient(top, #FFA900 0%, #FE7701 100%) !important;
+										background: -ms-linear-gradient(top, #FFA900 0%, #FE7701 100%) !important;
+										background: linear-gradient(top, #FFA900 0%, #FE7701 100%) !important;
+										-webkit-border-radius: 	3px !important;
+										-moz-border-radius: 	3px !important;
+										border-radius: 			3px !important;
+										-webkit-box-shadow: 1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+															-1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+															1px 3px 0 0 rgba(254, 212, 126, 0.70) inset,
+															-1px 3px 0 0 rgba(254, 212, 126, 0.70) inset !important;
+										-moz-box-shadow: 	1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+															-1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+															1px 3px 0 0 rgba(254, 212, 126, 0.70) inset,
+															-1px 3px 0 0 rgba(254, 212, 126, 0.70) inset !important;
+										box-shadow: 		1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+															-1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+															1px 3px 0 0 rgba(254, 212, 126, 0.70) inset,
+															-1px 3px 0 0 rgba(254, 212, 126, 0.70) inset !important;
+										}
+										.jlformsubmit:hover {}
+
+							/* Upload Button */
+							div.jlforminput span.fileinput-button {
+								margin: 10px 0;
+								padding: 0 15px;
+								display: block;
+								float: left;
+								height: 35px;
+								color: #fff;
+								font-family: 'Open Sans', sans-serif;
+								font-size: 14px;
+								font-weight: 100;
+								line-height: 35px;
+								text-align: center;
+								cursor: pointer;
+								border: 0 none;
+								background: #ffa900;
+								
+								background: rgb(255, 169, 0);
+								background: -moz-linear-gradient(top, #FFA900 0%, #FE7701 100%);
+								background: -webkit-gradient(linear, right bottom, right top, color-stop(0%, #FFA900), color-stop(100%, #FE7701));
+								background: -webkit-linear-gradient(top, #FFA900 0%, #FE7701 100%);
+								background: -o-linear-gradient(top, #FFA900 0%, #FE7701 100%);
+								background: -ms-linear-gradient(top, #FFA900 0%, #FE7701 100%);
+								background: linear-gradient(top, #FFA900 0%, #FE7701 100%);
+								-webkit-border-radius: 	3px;
+								-moz-border-radius: 	3px;
+								border-radius: 			3px;
+								-webkit-box-shadow: 1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+													-1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+													1px 3px 0 0 rgba(254, 212, 126, 0.70) inset,
+													-1px 3px 0 0 rgba(254, 212, 126, 0.70) inset;
+								-moz-box-shadow: 	1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+													-1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+													1px 3px 0 0 rgba(254, 212, 126, 0.70) inset,
+													-1px 3px 0 0 rgba(254, 212, 126, 0.70) inset;
+								box-shadow: 		1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+													-1px -2px 0 0 rgba(255, 153, 0, 0.90) inset,
+													1px 3px 0 0 rgba(254, 212, 126, 0.70) inset,
+													-1px 3px 0 0 rgba(254, 212, 126, 0.70) inset;
+								}
+								div.jlforminput span.fileinput-button:hover {}
+
+				/* Upload Progress Bar */
+				div.progress-bar-success {
+					width: 0%;
+					height: 15px;
+					background-color: #e1b6e6;
+					
+					-webkit-border-radius: 	3px;
+					-moz-border-radius: 	3px;
+					border-radius: 			3px;
+					}
+
+				/* Uploaded Files List */
+				div.jlitemfiles {}
+				div.jlitemfiles p {
+					margin: 0;
+					padding: 3px 0 !important;
+					color: #eedff0 !important;
+					font-family: 'Open Sans', sans-serif;
+					font-size: 13px !important;
+					font-weight: 300;
+					line-height: 15px !important;
+					}
+
+	/* Typography */
+	div.joblist.descpage h2 {
+		margin: 0;
+		padding: 0;
+		color: #601069;
+		font-size: 36px;
+		font-weight: 100;
+		}
+	div.joblist.descpage p {
+		/*
+		margin: 0;
+		padding: 8px 0;
+		color: #545454;
+		font-size: 14px;
+		line-height: 25px;
+		*/
+		}
+
+@media (max-width: 600px) {
+	div.jlformitem.left,
+	div.jlformitem.right {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+		width: 100% !important;
+		float: none !important;
+		}
+		div.jlformitem.right {
+			margin-top: 25px;
+			}
+}
